@@ -28,3 +28,9 @@ let finitoIlCorso = classe.shift();
 console.log(classe);
 let nuovoPrimoInClassifica = classe.unshift("giovanna");
 console.log(classe);
+console.log(classe[0]);
+
+function appello() {
+  let primoDellaLista = classe[0];
+}
+console.log(primoDellaLista);
